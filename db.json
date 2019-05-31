@@ -1,14 +1,14 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "descriptions": [
+    { "id": 1, "title": "Post 1", "description": "Description on function 1" },
+    { "id": 2, "title": "Post 2", "description": "Description on function 1" },
+    { "id": 3, "title": "Post 3", "description": "Description on function 1" }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "videos": [
+    { "id": 1, "title": "some text", "url": "http://youtube.com/2387ysvdjbn" },
+    { "id": 2, "title": "some text", "url": "http://youtube.com/2387ysvdjbn" }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "links": [
+	{ "id": 2, "title": "typicode", "url":"http://someurl" }
+  ]
 }
